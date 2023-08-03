@@ -1,29 +1,32 @@
 {
-  "student": [
+  "products": [
     {
-      "id": 1,
-      "name": "karan",
-      "course": "front-end"
+      "title": "i phone 7",
+      "img": "https://th.bing.com/th/id/OIP.juq0laaPyVDKvy0Lc75FoQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "price": "1500",
+      "category": "i phone",
+      "id": 1
     },
     {
-      "name": "piyush",
-      "course": "back-end",
+      "title": "i phone 7",
+      "img": "https://th.bing.com/th/id/OIP.juq0laaPyVDKvy0Lc75FoQHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      "price": "17000",
+      "category": "ios Phone",
       "id": 2
     },
     {
-      "name": "akshar",
-      "course": "front-end",
+      "title": "i phone 7",
+      "img": "https://th.bing.com/th/id/OIP.juq0laaPyVDKvy0Lc75FoQHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      "price": "1320302",
+      "category": "ios phone",
       "id": 3
     },
     {
-      "name": "vraj",
-      "course": "back-end",
+      "title": "i phone 7",
+      "img": "https://th.bing.com/th/id/OIP.nLi2A0Beu5RPL7TTAaH2mQHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "price": "151502",
+      "category": "ios Phone",
       "id": 4
-    },
-    {
-      "name": "ashavraj",
-      "course": "graphic",
-      "id": 5
     }
   ]
 }

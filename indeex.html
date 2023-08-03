@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>json data </title>
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
+<style>
+    #ui{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #ui div{
+        width: 31.3333%;
+        text-align: center;
+        margin: 12px;
+        border: 2px solid black;
+        overflow: hidden;
+    }
+    @media (max-width:770px) {
+        #ui div {
+            width: 100%;
+        }
+    }
+</style>
 <body>
-    <button id="stu">click to get data</button>
-    <table>
-        <thead>
-            <tr>name</tr>
-            <tr>course</tr>
-        </thead>
-        <tbody id="output">
-            <tr>
-                <td id="name"></td>
-                <td id="course"></td>
-            </tr>
-        </tbody>
-    </table>
-    <script src="./index.js"></script>
+    <div class="container">
+        <form>
+            <div class="col-md-4 col-12 mx-auto border border-2 border-dark p-4 shodow ">
+                <h2 class="text-capitalize text-center mb-5">enter your prodcut details</h2>
+                <input type="text" placeholder="title" id="title" class="d-block my-3 col-12 border-end-0 border-start-0 border-top-0 border-info text-capitalize">
+                <input type="url" placeholder="url" id="img" class="d-block my-3 col-12 border-end-0 border-start-0 border-top-0 border-info text-capitalize">
+                <input type="number" placeholder="price" id="price" class="d-block my-3 col-12 border-end-0 border-start-0 border-top-0 border-info text-capitalize">
+                <input type="text" placeholder="category" id="category" class="d-block my-3 col-12 border-end-0 border-start-0 border-top-0 border-info text-capitalize">
+                <input type="submit" class="col-12 btn btn-primary">
+            </div>
+        </form>
+        <hr>
+        <div id="ui">
+        </div>
+    </div>
 </body>
+<script src="./index.js"></script>
+
 </html>
